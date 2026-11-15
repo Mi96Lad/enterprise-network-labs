@@ -344,4 +344,4 @@ The switches run in VTP transparent mode on purpose. In the default server mode 
 
 ---
 
-Part of the [Enterprise Network Labs](../README.md) series by [Milad Falah Hassani](https://www.linkedin.com/in/milad-falah-hassani-4105b0416).
+Part of the [Enterprise Network Labs](../README.md) series by [Milad Falah Hassani](https://www.linkedin.com/in/milad-falah-hassani).

@@ -3,7 +3,7 @@
 Enterprise network designs, built and tested in EVE-NG. Each project explains the design, reproduces its problems with a test that can be repeated, fixes them and names the limits.
 
 **Milad Falah Hassani** · Network Engineer · CCNP Enterprise<br>
-[LinkedIn](https://www.linkedin.com/in/milad-falah-hassani-4105b0416) · [falahhassanimilad@gmail.com](mailto:falahhassanimilad@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/milad-falah-hassani) · [falahhassanimilad@gmail.com](mailto:falahhassanimilad@gmail.com)
 
 > 🇩🇪 **Kurzfassung:** In diesem Repository dokumentiere ich Enterprise-Netzwerkdesigns, die ich in EVE-NG aufbaue und teste. Jedes Projekt erklärt das Design, weist seine Probleme mit einem wiederholbaren Test nach, löst sie und benennt die Grenzen. Topologie, vollständige Gerätekonfigurationen und Messergebnisse liegen bei.
 
@@ -52,4 +52,4 @@ Cisco images are licensed and are not part of this repository.
 
 ## Contact
 
-I am open to network engineering roles in Germany. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/milad-falah-hassani-4105b0416).
+I am open to network engineering roles in Germany. The fastest way to reach me is [LinkedIn](https://www.linkedin.com/in/milad-falah-hassani).

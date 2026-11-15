@@ -1,0 +1,21 @@
+; =============================================================================
+; Zone 168.192.in-addr.arpa (reverse for 192.168.0.0/16)
+; Owner names are <host>.<third octet>, e.g. 10.100 = 192.168.100.10
+; =============================================================================
+$TTL 3600
+@               IN  SOA   ns1.campus.internal. hostmaster.campus.internal. (
+                          2026111401 ; serial (YYYYMMDDnn)
+                          3600       ; refresh
+                          900        ; retry
+                          1209600    ; expire
+                          300 )      ; negative-cache TTL
+                IN  NS    ns1.campus.internal.
+
+10.100          IN  PTR   srv-dns01.campus.internal.
+1.100           IN  PTR   core-main.campus.internal.
+1.10            IN  PTR   vlan10-gw.campus.internal.
+1.20            IN  PTR   vlan20-gw.campus.internal.
+1.30            IN  PTR   vlan30-gw.campus.internal.
+1.40            IN  PTR   vlan40-gw.campus.internal.
+1.50            IN  PTR   vlan50-gw.campus.internal.
+1.60            IN  PTR   vlan60-gw.campus.internal.

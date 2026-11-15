@@ -1,0 +1,15 @@
+// =============================================================================
+// /etc/bind/named.conf.local  -  zones served by srv-dns01.campus.internal
+// =============================================================================
+zone "campus.internal" {
+    type primary;
+    file "/etc/bind/zones/db.campus.internal";
+    allow-update { none; };
+};
+
+// one reverse zone for every 192.168.x.x lab subnet
+zone "168.192.in-addr.arpa" {
+    type primary;
+    file "/etc/bind/zones/db.192.168";
+    allow-update { none; };
+};

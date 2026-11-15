@@ -1,0 +1,26 @@
+// =============================================================================
+// /etc/bind/named.conf.options  -  srv-dns01.campus.internal
+// =============================================================================
+acl "lab-nets" {
+    127.0.0.0/8;
+    192.168.0.0/16;  // all lab VLANs + server segment
+    10.0.0.0/8;      // point-to-point core links (Po1-Po3)
+};
+
+options {
+    directory "/var/cache/bind";
+
+    listen-on port 53 { 127.0.0.1; 192.168.100.10; };
+    listen-on-v6 { none; };
+
+    allow-query     { lab-nets; };
+    recursion yes;
+    allow-recursion { lab-nets; };
+    allow-transfer  { none; };
+
+    // only used if the server ever gets Internet access
+    forwarders { 1.1.1.1; 9.9.9.9; };
+
+    dnssec-validation auto;
+    version "not disclosed";
+};
